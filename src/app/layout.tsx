@@ -1,3 +1,10 @@
+export const metadata = {
+  title: {
+    default: "Chuks AI",
+    template: "%s | Chuks AI",
+  },
+  description: "Your intelligent AI assistant for fast, accurate solutions.",
+};
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
