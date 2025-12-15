@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import Image from 'next/image';
 import HeroSub from '../../shared/hero-sub';
 import { PropertyContext } from '@/context-api/PropertyContext';
-import PropertyCard from '../../home/property-list/property-card';
+
 import { getDataPath, getImgPath } from '@/utils/pathUtils';
 
 export default function AdvanceSearch({ category }: { category?: string }) {
