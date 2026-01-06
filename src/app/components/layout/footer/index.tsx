@@ -51,18 +51,18 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/volunteer"
+                  href="/partner"
                   className="text-white/70 hover:text-white transition"
                 >
-                  Volunteer
+                  Partner
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/mentor"
+                  href="/blog"
                   className="text-white/70 hover:text-white transition"
                 >
-                  Become a Mentor
+                  Blog
                 </Link>
               </li>
               <li>
@@ -89,10 +89,10 @@ export default function Footer() {
             </p>
 
             <Link
-              href="/contact"
+              href="/donate"
               className="inline-block text-[11px] tracking-[0.3em] uppercase text-white/80 border-b border-white/30 pb-1 hover:text-white hover:border-white transition"
             >
-              Contact Us
+             Donate
             </Link>
           </div>
         </div>

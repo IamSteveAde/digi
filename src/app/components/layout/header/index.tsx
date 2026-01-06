@@ -113,20 +113,20 @@ export default function Header() {
 
             <Divider />
 
-            <MobileNavItem delay={2} href="/volunteer" onClick={() => setMenuOpen(false)}>
-              Volunteer
+            <MobileNavItem delay={2} href="/partner" onClick={() => setMenuOpen(false)}>
+              PARTNER
             </MobileNavItem>
 
             <Divider />
 
-            <MobileNavItem delay={3} href="/mentor" onClick={() => setMenuOpen(false)}>
-              Become a Mentor
+            <MobileNavItem delay={3} href="/blog" onClick={() => setMenuOpen(false)}>
+              BLOGS & CASE STUDIES
             </MobileNavItem>
 
             <Divider />
 
-            <MobileNavItem delay={4} href="/partner" onClick={() => setMenuOpen(false)}>
-              Partner With Us
+            <MobileNavItem delay={4} href="/services" onClick={() => setMenuOpen(false)}>
+              OUR SERVICES
             </MobileNavItem>
           </nav>
         </div>
