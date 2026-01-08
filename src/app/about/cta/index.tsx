@@ -26,7 +26,7 @@ export default function WorkWithUs() {
       {/* Subtle grain */}
       <div className="absolute inset-0 opacity-[0.035] bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:3px_3px]" />
 
-      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-28 md:py-36">
+      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
         <div className="grid gap-20 lg:grid-cols-12 items-center">
           {/* ================= LEFT ================= */}
           <motion.div

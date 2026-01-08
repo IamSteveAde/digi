@@ -17,7 +17,7 @@ export default function DonateBankTransfer() {
         }}
       />
 
-      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-28 md:py-36">
+      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}

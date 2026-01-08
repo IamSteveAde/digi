@@ -220,7 +220,7 @@ function Hackathons() {
 
             <div className="mt-12">
               <Link
-                href="/events"
+                href="/hackathons"
                 className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-[#61abbb] text-black text-xs tracking-[0.35em] uppercase hover:opacity-90 transition"
               >
                 Upcoming Hackathons

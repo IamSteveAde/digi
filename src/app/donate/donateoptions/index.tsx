@@ -17,7 +17,7 @@ export default function DonateOptions() {
         }}
       />
 
-      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-28 md:py-36">
+      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
         <div className="grid gap-20 lg:grid-cols-12 items-start">
           {/* ================= LEFT — IMPACT ================= */}
           <motion.div

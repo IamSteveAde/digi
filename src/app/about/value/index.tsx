@@ -26,7 +26,7 @@ export default function OurValues() {
       {/* Soft grain */}
       <div className="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:3px_3px]" />
 
-      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-28 md:py-36">
+      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
         {/* Section intro */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}

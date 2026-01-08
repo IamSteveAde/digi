@@ -6,7 +6,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 export default function BlogHero() {
   return (
-    <section className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-white h-[520px]">
       {/* Subtle brand atmosphere */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full bg-[#5f3b86]/10 blur-[160px]" />

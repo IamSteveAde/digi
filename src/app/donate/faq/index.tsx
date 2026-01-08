@@ -43,7 +43,7 @@ export default function TransparencyAndFAQs() {
       </div>
 
       {/* ================= CONTENT ================= */}
-      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-32 md:py-40">
+      <div className="relative z-10 container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
         {/* ================= TRANSPARENCY ================= */}
         <motion.div
           initial={{ opacity: 0, y: 32 }}
@@ -128,12 +128,7 @@ export default function TransparencyAndFAQs() {
               <p className="text-sm text-white/75 leading-relaxed">
                 We respect your privacy. Donor information is used only for
                 receipting, stewardship, and legal compliance.{" "}
-                <a
-                  href="/privacy"
-                  className="underline underline-offset-4 hover:text-white"
-                >
-                  View our Privacy Notice.
-                </a>
+               
               </p>
             </div>
           </div>

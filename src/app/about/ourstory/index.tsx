@@ -13,7 +13,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export default function OurStory() {
   return (
     <section className="relative bg-white overflow-hidden">
-      <div className="container mx-auto px-6 lg:max-w-screen-xl py-28 md:py-36">
+      <div className="container mx-auto px-6 lg:max-w-screen-xl py-2 md:py-2">
 
         {/* ================= OUR STORY ================= */}
         <motion.div

@@ -99,7 +99,7 @@ function PartnerHero() {
 ====================================================== */
 function WhyPartner() {
   return (
-    <section className="relative bg-white py-28 md:py-36">
+    <section className="relative bg-white py-6 md:py-6">
       <div className="container mx-auto px-6 lg:max-w-screen-xl">
         <div className="max-w-3xl mb-20">
           <span className="block text-[11px] tracking-[0.5em] uppercase text-black/60 mb-6">
@@ -198,13 +198,15 @@ function CallToAction() {
           </p>
 
           <div className="flex flex-wrap gap-6">
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-[#5f3b86] text-xs tracking-[0.35em] uppercase font-medium hover:bg-white/90 transition"
-            >
-              Become a Partner
-              <ArrowRight size={16} />
-            </Link>
+            <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLScwnwEVhQMv59ffUHywPBVTwcWiqKK1hKjmzD-oyhkGOrIuVw/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-[#5f3b86] text-xs tracking-[0.35em] uppercase font-medium hover:bg-white/90 transition"
+>
+  Become a Partner
+  <ArrowRight size={16} />
+</a>
 
             <a
               href="mailto:info@digitalinclusioninitiative.org"
