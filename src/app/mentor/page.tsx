@@ -177,7 +177,7 @@ export default function MentorPage() {
       <section className="bg-[#f9fafb] py-32">
         <div className="container mx-auto px-6 lg:max-w-screen-xl grid gap-20 md:grid-cols-2">
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Expectations</h3>
+            <h3 className="text-2xl font-semibold text-black/70 mb-8">Expectations</h3>
             <ul className="space-y-5 text-black/70 text-lg">
               <li>• Commitment: typically 3 months</li>
               <li>• Orientation & safeguarding briefing required</li>
@@ -186,7 +186,7 @@ export default function MentorPage() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-8">What You’ll Gain</h3>
+            <h3 className="text-2xl font-semibold text-black/70 mb-8">What You’ll Gain</h3>
             <ul className="space-y-5 text-black/70 text-lg">
               <li>• Impact recognition & references from DII</li>
               <li>• Access to partners & hiring pathways</li>
