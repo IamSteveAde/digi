@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
     slug: "what-is-digital-poverty",
     title: "What is Digital Poverty?",
     excerpt:
-      "Try applying for a job today without a phone. Try running a business without mobile data. That’s digital poverty — and it’s more common than you think.",
+      "Try applying for a job today without a phone. Try running a business without mobile data. That’s digital poverty, and it’s more common than you think.",
     date: "10 October 2025",
     author: "Digital Inclusion Initiative",
     category: "Insights",

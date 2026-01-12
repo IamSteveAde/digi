@@ -86,7 +86,7 @@ function PartnerHero() {
             At the Digital Inclusion Initiative (DII), we believe everyone
             deserves access to technology, data, and job-ready digital skills.
             We partner with organisations that share our vision of an inclusive,
-            connected Africa — where no one is left behind.
+            connected Africa, where no one is left behind.
           </motion.p>
         </div>
       </div>

@@ -59,7 +59,7 @@ export default function MentorPage() {
 
             <p className="mt-12 max-w-2xl text-[1.15rem] leading-relaxed text-black/70">
               Share your expertise to help women and underserved learners gain
-              skills, confidence, and real pathways to work — across AI, Virtual
+              skills, confidence, and real pathways to work, across AI, Virtual
               Assistance, and Digital Marketing.
             </p>
           </div>

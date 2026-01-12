@@ -13,7 +13,7 @@ const actions = [
     title: "Donate Today",
     headline: "Support Digital Inclusion Initiative",
     description:
-      "Your donation today could help transform someone’s life through digital access, skills, and opportunity. Together, we can fix the digital divide — for good.",
+      "Your donation today could help transform someone’s life through digital access, skills, and opportunity. Together, we can fix the digital divide, for good.",
     cta: "Donate Now",
     href: "/donate",
     icon: HeartHandshake,

@@ -109,8 +109,7 @@ export default function AboutPage() {
                 "
               >
                 The Digital Inclusion Initiative is a social-impact organisation
-                advancing access to devices, data, and job-ready digital skills —
-                ensuring that women and underserved communities can participate
+                advancing access to devices, data, and job-ready digital skills, ensuring that women and underserved communities can participate
                 fully in the digital economy.
               </motion.p>
 

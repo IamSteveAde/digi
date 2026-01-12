@@ -66,17 +66,18 @@ export default function Hero() {
   const slide = slides[index];
   const Icon = slide.icon;
 
+  const next = () => setIndex((i) => (i + 1) % slides.length);
+  const prev = () =>
+    setIndex((i) => (i - 1 + slides.length) % slides.length);
+
   useEffect(() => {
-    const t = setInterval(
-      () => setIndex((i) => (i + 1) % slides.length),
-      8000
-    );
-    return () => clearInterval(t);
+    const timer = setInterval(next, 8000);
+    return () => clearInterval(timer);
   }, []);
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* BACKGROUND IMAGE (NON-INTERACTIVE) */}
+      {/* BACKGROUND */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
           src={getImgPath(slide.image)}
@@ -85,21 +86,19 @@ export default function Hero() {
           priority
           className="object-cover"
         />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: `linear-gradient(
+              120deg,
+              rgba(0,0,0,0.78),
+              ${slide.accent}55
+            )`,
+          }}
+        />
       </div>
 
-      {/* GRADIENT OVERLAY (NON-INTERACTIVE) */}
-      <div
-        className="absolute inset-0 z-10 pointer-events-none"
-        style={{
-          background: `linear-gradient(
-            120deg,
-            rgba(0,0,0,0.78),
-            ${slide.accent}55
-          )`,
-        }}
-      />
-
-      {/* CONTENT (INTERACTIVE) */}
+      {/* CONTENT */}
       <div className="relative z-20 h-full flex items-center">
         <div className="container mx-auto px-6 lg:max-w-screen-xl">
           <AnimatePresence mode="wait">
@@ -108,12 +107,12 @@ export default function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.8 }}
-              className="max-w-2xl space-y-6"
+              transition={{ duration: 0.7 }}
+              className="max-w-2xl space-y-7"
             >
               <div className="flex items-center gap-3 text-white/80">
                 <Icon size={20} />
-                <span className="sectionw-eyebrow">
+                <span className="text-[11px] tracking-[0.45em] uppercase font-semibold text-[#d9c8ff]">
                   {slide.title}
                 </span>
               </div>
@@ -125,22 +124,21 @@ export default function Hero() {
                 <span
                   className="bg-clip-text text-transparent"
                   style={{
-                    backgroundImage: `linear-gradient(90deg, #fff, ${BRAND.purple})`,
+                    backgroundImage: `linear-gradient(90deg, #ffffff, ${BRAND.purple})`,
                   }}
                 >
-                  {" " +
-                    slide.headline.split(" ").slice(1).join(" ")}
+                  {" " + slide.headline.split(" ").slice(1).join(" ")}
                 </span>
               </h1>
 
-              <p className="text-white/80 max-w-lg">
+              <p className="text-white/80 max-w-lg leading-relaxed">
                 {slide.description}
               </p>
 
-              {/* CTA — NOW GUARANTEED */}
+              {/* CTA — NOW 100% CLICKABLE */}
               <Link
                 href={slide.cta.href}
-                className="inline-flex cursor-pointer items-center gap-3 px-8 py-4 rounded-xl text-xs tracking-[0.25em] uppercase transition hover:opacity-90"
+                className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-xs tracking-[0.25em] uppercase transition hover:opacity-90 cursor-pointer"
                 style={{
                   backgroundColor: slide.accent,
                   color: "#fff",
@@ -152,6 +150,23 @@ export default function Hero() {
             </motion.div>
           </AnimatePresence>
         </div>
+      </div>
+
+      {/* DESKTOP ARROWS (FIXED) */}
+      <div className="absolute inset-y-0 w-full hidden md:flex items-center justify-between px-6 z-30 pointer-events-none">
+        <button
+          onClick={prev}
+          className="h-12 w-12 rounded-full bg-white/10 backdrop-blur text-white flex items-center justify-center hover:bg-white hover:text-black transition pointer-events-auto cursor-pointer"
+        >
+          <ArrowLeft size={20} />
+        </button>
+
+        <button
+          onClick={next}
+          className="h-12 w-12 rounded-full bg-white/10 backdrop-blur text-white flex items-center justify-center hover:bg-white hover:text-black transition pointer-events-auto cursor-pointer"
+        >
+          <ArrowRight size={20} />
+        </button>
       </div>
     </section>
   );

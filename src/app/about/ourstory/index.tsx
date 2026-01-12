@@ -49,7 +49,7 @@ export default function OurStory() {
 
           <p className="mt-6 text-white/70 leading-relaxed max-w-3xl text-lg">
             Our programmes combine skills training, mentoring, and employability
-            pathways — so learners can move confidently into work, freelancing,
+            pathways, so learners can move confidently into work, freelancing,
             or entrepreneurship.
           </p>
         </motion.div>
@@ -121,7 +121,7 @@ export default function OurStory() {
             </span>
 
             <p className="text-xl leading-relaxed text-white/80 max-w-xl">
-              A digitally inclusive Africa where no one is left behind — every
+              A digitally inclusive Africa where no one is left behind, every
               learner connected, skilled, and confident to participate and lead
               in the future of work.
             </p>

@@ -84,7 +84,7 @@ function ServicesHero() {
             className="mt-12 max-w-3xl text-[clamp(1.05rem,1.4vw,1.25rem)] leading-relaxed text-black/70"
           >
             At the Digital Inclusion Initiative, we believe digital access is a
-            right — not a luxury. Our services help individuals and communities
+            right, not a luxury. Our services help individuals and communities
             overcome barriers to technology through inclusive, practical, and
             sustainable solutions.
           </motion.p>
@@ -123,7 +123,7 @@ function DIIAcademy() {
 
         <p className="text-white/80 leading-relaxed max-w-xl mb-10">
           Job-ready bootcamps and clinics in AI &amp; Productivity, Virtual
-          Assistance, and Digital Marketing — paired with mentoring, career
+          Assistance, and Digital Marketing, paired with mentoring, career
           clinics, and portfolio support for women and underserved learners.
         </p>
 
@@ -253,7 +253,7 @@ function Hackathons() {
 
         <p className="text-white/80 leading-relaxed max-w-xl mb-10">
           Fast-paced, problem-solving events where teams build solutions for
-          real community challenges — mentored by industry experts and
+          real community challenges, mentored by industry experts and
           employers.
         </p>
 

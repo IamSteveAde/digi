@@ -170,8 +170,8 @@ export default function CourseraOnboardingPage() {
 
           <p className="text-black/70 leading-relaxed">
             The Digital Inclusion Initiative ensures that access to platforms
-            like Coursera translates into real outcomes — skills, confidence,
-            and opportunity — for those who need it most.
+            like Coursera translates into real outcomes, skills, confidence,
+            and opportunity, for those who need it most.
           </p>
         </div>
       </section>

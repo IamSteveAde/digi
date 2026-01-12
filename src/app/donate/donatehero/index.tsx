@@ -95,7 +95,7 @@ export default function DonateHero() {
               className="mt-12 max-w-2xl text-[clamp(1.05rem,1.4vw,1.25rem)] leading-relaxed text-white/90"
             >
               Your gift powers access to devices, data, and job-ready digital
-              skills — helping women and underserved learners across Africa
+              skills, helping women and underserved learners across Africa
               participate fully in the digital economy.
             </motion.p>
 

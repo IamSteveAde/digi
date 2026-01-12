@@ -36,7 +36,7 @@ export default function EventsPage() {
 
             <p className="mt-12 max-w-2xl text-[1.15rem] leading-relaxed text-black/70">
               Review our upcoming conversations, workshops, and community
-              sessions — and get involved in building a more inclusive digital
+              sessions, and get involved in building a more inclusive digital
               future.
             </p>
           </div>

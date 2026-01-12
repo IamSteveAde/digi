@@ -49,7 +49,7 @@ export default function OurValues() {
           <ValueCard
             icon={Users}
             title="Inclusion"
-            text="We design with and for learners — accessible, affordable, and community-led."
+            text="We design with and for learners, accessible, affordable, and community-led."
             accent="#61abbb"
           />
 
