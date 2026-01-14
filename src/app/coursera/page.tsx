@@ -77,7 +77,7 @@ export default function CourseraOnboardingPage() {
 
       {/* LEFT — TEXT */}
       <div>
-        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-white">
+        <h2 className="text-2xl md:text-2xl font-semibold mb-8 text-white">
           Program Overview
         </h2>
 
