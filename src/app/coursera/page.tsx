@@ -372,9 +372,7 @@ export default function CourseraOnboardingPage() {
         </ul>
 
         <div className="mt-8">
-          <span className="text-sm text-[#5f3b86] font-medium">
-            👉 Click here to onboard as a Community Partner
-          </span>
+         
         </div>
       </div>
 
