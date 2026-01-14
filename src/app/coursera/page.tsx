@@ -512,7 +512,7 @@ export default function CourseraOnboardingPage() {
   <div className="relative container mx-auto px-6 lg:max-w-screen-xl">
     {/* Header */}
     <div className="max-w-3xl mb-20">
-      <span className="sectionw-eyebrow mb-6">
+      <span className="section-eyebrow mb-6">
         Resources
       </span>
 
