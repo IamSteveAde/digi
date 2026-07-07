@@ -12,9 +12,9 @@ export type BlogPost = {
 export const posts: BlogPost[] = [
 {
   slug: "beatcode-hackathon-2.0",
-  title: "Two Days. Thirteen Groups. One Big Idea.",
+  title: "BeatCode Hackathon 2.0 Came to Amuwo Odofin. Here Is What Happened.",
   excerpt:
-    "Thirty-five SS2 students came in, learned to code music from scratch, and competed. Here is how BeatCode Hackathon 2.0 ran.",
+    "Thirty-five SS2 students walked in having never written a line of code. Two days later, they walked out with finished music tracks they had built themselves.",
   date: "03 July 2026",
   author: "Digital Inclusion Initiative",
   category: "Events",
@@ -23,95 +23,103 @@ export const posts: BlogPost[] = [
   <!-- INTRO -->
   <div class="article-intro">
     <p class="lede">
-      On July 2nd and 3rd, the Digital Inclusion Initiative ran a two-day
-      hackathon at Iman Comprehensive College in Amuwo Odofin, Lagos.
-      Thirty-five SS2 students came in, learned a new skill, and used it
-      to compete.
+      On July 2nd and 3rd, we ran BeatCode Hackathon 2.0 at Iman Comprehensive
+      College in Amuwo Odofin, Lagos. Thirty-five SS2 students walked in having
+      never written a line of code. Two days later, they walked out with finished
+      music tracks they had built themselves.
     </p>
 
     <p class="lede-strong">
-      That is the short version. Here is the longer one.
+      We have been thinking about that a lot since.
     </p>
   </div>
 
-  <!-- WHAT BEATCODE IS -->
+  <!-- THE ASSUMPTION -->
   <div class="article-body">
-    <h3>What BeatCode Actually Is</h3>
     <p>
-      BeatCode is built around EarSketch, a platform that lets you write code
-      to produce music. Students are not learning to code in the abstract. They
-      are writing functions, calling variables, and layering audio samples until
-      something that sounds like a real song comes out. The output is immediate
-      and the learning sticks because of it.
+      There is a common assumption about young people in underserved communities
+      and technology. The assumption is that the problem is motivation, that they
+      are not interested, not curious, not ready. BeatCode keeps proving that wrong.
     </p>
 
     <p>
-      The format is intentional. DII believes that digital skills land
-      differently when young people can see what they made. A coded music track
-      is something you can play back, share, and be proud of. It is also proof
-      that you did something technical, which matters a lot when you have never
-      thought of yourself as someone who does technical things.
+      The platform we use is called EarSketch. It lets you compose music using
+      actual programming languages. You write functions, call variables, layer
+      audio samples, and the output is a song. It is technical work, but the
+      feedback is immediate and personal. When a student runs their code and
+      music comes out, something shifts. The idea that they are someone who can
+      do this kind of thing stops being abstract.
+    </p>
+
+    <p>
+      That is what we watched happen across two days in Amuwo Odofin.
     </p>
   </div>
 
-  <!-- HOW THE TWO DAYS RAN -->
+  <!-- HOW IT RAN -->
   <div class="article-focus">
     <h3>How the Two Days Ran</h3>
     <p>
-      Day 1 was orientation and training. Students were introduced to EarSketch,
-      walked through the fundamentals of coding for music, and given time to get
-      comfortable with the tools. By the end of the session, the competitive
-      energy was already building.
+      Day 1 was training. Students were introduced to EarSketch and walked
+      through the basics. The room was attentive in a way that told us they
+      were genuinely engaged, not just sitting through it. By the end of the
+      session they were asking about the competition before we had even
+      wrapped up.
     </p>
 
     <p>
-      Day 2 was the hackathon itself. Students worked in thirteen groups across
-      a full day of coding. Every group finished and submitted an entry. Two
-      groups were selected as winners based on the quality and creativity of
-      their tracks. One group took home the Best Group prize. Another was
-      recognised for the most creative execution.
+      Day 2 was the hackathon. Thirteen groups. A full day of coding. Every
+      single group submitted a completed entry. Two groups were selected as
+      winners based on the quality and creativity of their tracks. One took
+      home the Best Group prize. Another was recognised for the most creative
+      execution.
+    </p>
+
+    <p>
+      The submissions were not perfect. They were not supposed to be. They
+      were first attempts, built in a few hours, by students who had never
+      done anything like this before. That is exactly the point.
     </p>
   </div>
 
-  <!-- WHAT THE SCHOOL MADE POSSIBLE -->
+  <!-- THE REAL INSIGHT -->
   <div class="article-body">
-    <h3>What the School Made Possible</h3>
     <p>
-      Iman Comprehensive College provided the space and the desktop computers
-      that supplemented DII's device bank, giving every group access to a
-      machine for the full two days. The school's administration was engaged
-      throughout and expressed genuine appreciation for the programme at the
-      close of the event.
+      What we kept coming back to after the event was how little it took to
+      get these students moving. Not much. A platform, a room, two days, and
+      the chance to try. The motivation was already there. It had been there
+      the whole time. What was missing was the exposure.
+    </p>
+
+    <p>
+      That is the gap DII exists to close. To not only convince young Nigerians
+      that digital skills matter, but also create the conditions for them to
+      access those skills, to see themselves in this space, and to leave with
+      proof and a boost of confidence.
     </p>
   </div>
 
   <!-- GRATITUDE -->
   <div class="article-focus">
-    <h3>What We Are Grateful For</h3>
     <p>
-      We are grateful to Iman Comprehensive College for hosting and for the
-      support they brought to the table. To our facilitator and trainer, who
-      kept 35 teenagers engaged across two full days of technical work. To the
-      mentors and the rest of the DII team who made the sessions run. And to
-      Linda Rogers, DII's Founder and Executive Director, whose commitment to
-      practical digital education for young Nigerians shapes everything DII does.
+      We are grateful to Iman Comprehensive College for opening their doors
+      and providing the space and computers that made the event possible. To
+      our facilitator and trainer, who held the room and made the technical
+      content accessible across two full days. To our mentors and the DII team
+      who showed up and made it run. And to Linda Rogers, DII's Founder and
+      Executive Director, whose belief that young Nigerians deserve real,
+      practical digital education is the foundation everything we do is built on.
     </p>
   </div>
 
-  <!-- BIGGER PICTURE -->
+  <!-- CLOSE -->
   <div class="article-action">
-    <h3>Why This Is Part of a Bigger Picture</h3>
-    <p>
-      Each of those 35 students left with a working knowledge of a coding
-      environment they had never used before, a completed project, and a direct
-      experience of what it feels like to build something with technology rather
-      than just use it.
+    <p class="closing">
+      BeatCode 2.0 is done. BeatCode 3.0 is coming.
     </p>
 
-    <p class="closing">
-      DII's work is about making that experience available to young people who
-      would not otherwise have it. BeatCode is one way we do that. It will not
-      be the last.
+    <p class="final">
+      The students in Amuwo Odofin reminded us why.
     </p>
   </div>
 `,
