@@ -10,6 +10,330 @@ export type BlogPost = {
 };
 
 export const posts: BlogPost[] = [
+  {
+  slug: "why-digital-inclusion-is-a-business-issue",
+  title: "Why Digital Inclusion Is a Business Issue, Not Just a Social One",
+  excerpt:
+    "DII Founder Linda Rogers made the case for why corporations cannot afford to ignore the digital divide. Here is what she said.",
+  date: "15 June 2026",
+  author: "Digital Inclusion Initiative",
+  category: "Webinar",
+  coverImage: "/images/blog/webinar-june-2026.jpg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      On June 15th, DII's Founder and Executive Director Linda Rogers stepped
+      in to lead the monthly webinar. She brought a perspective that is not
+      often heard in conversations about digital access: the business case.
+    </p>
+
+    <p class="lede-strong">
+      What happens when opportunity becomes digital, but access does not?
+    </p>
+  </div>
+
+  <!-- THE QUESTION -->
+  <div class="article-body">
+    <p>
+      That gap, Linda argued, is not just a development problem. It is an
+      economic one, and organisations that ignore it do so at their own cost.
+    </p>
+
+    <p>
+      She walked through five dimensions where the digital divide causes damage:
+      education, employment, financial services, healthcare, and entrepreneurship.
+      In each of these areas, going digital without ensuring that everyone can
+      participate creates a new layer of exclusion on top of existing ones.
+    </p>
+  </div>
+
+  <!-- THE BARRIERS -->
+  <div class="article-focus">
+    <h3>The Barriers Are a Chain</h3>
+    <p>
+      On the barriers themselves, Linda was precise. It is not one problem.
+      You might not have a device. If you have a device, you might not have
+      connectivity. If you have both, you might not have the confidence to use
+      them. If you have all three, you might not have the skills. And even with
+      all of the above, you might not have a clear pathway into employment or
+      income. All five barriers have to be addressed together, or the gap stays wide.
+    </p>
+  </div>
+
+  <!-- THE BUSINESS CASE -->
+  <div class="article-body">
+    <h3>Why Businesses Should Care</h3>
+    <p>
+      The future workforce is the underserved youth of today. If organisations
+      are not investing in getting these young people into digital spaces, the
+      talent pipeline problem they will face in ten years is being created right
+      now. Skills gaps, productivity issues, and the widening impact of AI on
+      lower-skilled roles are not distant concerns. They are already happening.
+    </p>
+
+    <p>
+      Linda spoke about what DII is doing: the device bank, the DII Academy,
+      the Coursera partnership, and the hackathons. But she also spoke about
+      what she is asking corporations to do. Donate devices sitting in storage.
+      Provide connectivity where it is absent. Offer mentors and volunteers.
+      Create internship pathways for trained young people.
+    </p>
+  </div>
+
+  <!-- CLOSE -->
+  <div class="article-action">
+    <blockquote>
+      If you committed to one inclusion initiative in the next 12 months,
+      what would it be?
+    </blockquote>
+
+    <p class="closing">
+      That is the question Linda leaves with every organisation she speaks to.
+      It is worth sitting with.
+    </p>
+  </div>
+`,
+},
+{
+  slug: "from-digital-skills-to-income",
+  title: "From Digital Skills to Income: A Practical Guide",
+  excerpt:
+    "You have a skill. Now what? Blossom Ubochi broke it down into four building blocks at DII's April webinar.",
+  date: "17 April 2026",
+  author: "Digital Inclusion Initiative",
+  category: "Webinar",
+  coverImage: "/images/blog/webinar-april-2026.jpg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      On April 17th, DII hosted a webinar focused on one of the most practical
+      questions in the digital inclusion conversation: you have a skill, now what?
+    </p>
+
+    <p class="lede-strong">
+      The speaker was Blossom Ubochi, and she came with a framework.
+    </p>
+  </div>
+
+  <!-- THE FRAMEWORK -->
+  <div class="article-body">
+    <h3>Skill, Service, Platform, Client</h3>
+    <p>
+      Blossom structured her session around four building blocks: skill, service,
+      platform, and client. Each one matters, and without all four working
+      together, the income does not follow.
+    </p>
+
+    <p>
+      The skill is what you know. The service is what you offer with it. Knowing
+      how to use Canva is a skill. Offering to design social media posts for small
+      food businesses is a service. One is a capability. The other is something
+      people will pay for.
+    </p>
+
+    <p>
+      The platform is where you find the people who need that service. LinkedIn,
+      Upwork, and Fiverr were the platforms she pointed to most. And the client
+      is the person who pays you.
+    </p>
+  </div>
+
+  <!-- KEY INSIGHT -->
+  <div class="article-focus">
+    <blockquote>
+      People do not pay for skills. They pay for results.
+    </blockquote>
+
+    <p>
+      A client does not pay you because you can write. They pay you because you
+      have told them, clearly, that your writing will help them sell. That
+      distinction, she said, is where most people get stuck.
+    </p>
+  </div>
+
+  <!-- ON STARTING -->
+  <div class="article-body">
+    <h3>On Starting</h3>
+    <p>
+      Blossom was honest about the early stages. Income will be inconsistent.
+      Projects will come and go. That is not a sign that something is broken.
+      That is what freelancing looks like at the start. The way through it is
+      not to wait for stability before showing up. It is to show up so
+      consistently that stability follows.
+    </p>
+
+    <p>
+      She also pushed back on the idea that more courses are the answer. Most
+      people already know enough to start. What they are missing is the decision
+      to begin.
+    </p>
+  </div>
+
+  <!-- CLOSE -->
+  <div class="article-action">
+    <p class="closing">
+      For DII, this session was a direct expression of what the organisation is
+      built around. Skills alone are not enough. Helping people understand how
+      to turn those skills into economic opportunity is where the real work is.
+    </p>
+  </div>
+`,
+},
+{
+  slug: "building-digital-confidence",
+  title: "Building Digital Confidence: Beyond Skills to Mindset",
+  excerpt:
+    "Are you digitally dependent, or digitally confident? DII's February webinar drew a line between the two.",
+  date: "20 February 2026",
+  author: "Digital Inclusion Initiative",
+  category: "Webinar",
+  coverImage: "/images/blog/webinar-feb-2026.jpg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      On February 20th, DII brought two guest speakers together for a session
+      on digital confidence. The conversation went further than most.
+    </p>
+
+    <p class="lede-strong">
+      Are we digitally dependent, or digitally confident? There is a difference.
+    </p>
+  </div>
+
+  <!-- MAUREEN -->
+  <div class="article-body">
+    <h3>The Case for Digital Confidence</h3>
+    <p>
+      Maureen Ikeji, a business thought leader with 20 years spanning IT,
+      consulting, manufacturing, and marketing, and former Head of Strategy for
+      British American Tobacco Nigeria, led the first half. Her point was that
+      most people know how to scroll, watch, and consume. Far fewer know how to
+      show up, create, and contribute.
+    </p>
+
+    <p>
+      Digital confidence, she argued, is not about knowing every app or being
+      able to code at 3am. It is about not being intimidated by what you do
+      not know. She introduced a simple framework: learn something, apply it,
+      share it, and repeat. The sharing step, she said, is where most people
+      stop. And it is exactly where confidence begins to build.
+    </p>
+
+    <p>
+      She tackled three mindset shifts she sees as essential: moving away from
+      "I am not a techie person," moving away from being only a consumer of
+      technology, and moving away from waiting until everything is perfect
+      before starting.
+    </p>
+  </div>
+
+  <!-- ADEYINKA -->
+  <div class="article-focus">
+    <h3>Know What You Are Bringing</h3>
+    <p>
+      Adeyinka Adeyefa, a lawyer, human rights advocate, and DII trustee, closed
+      the session with a different angle. Her argument was about identity. The
+      digital world, she said, is a mirror of the real world. Just as you bring
+      something unique to your physical environment, you bring something unique
+      to the digital space. The task is to know what that is, package it well,
+      and show up consistently.
+    </p>
+
+    <blockquote>
+      Consistency is not just a strategy. It becomes your calling card.
+    </blockquote>
+  </div>
+
+  <!-- CLOSE -->
+  <div class="article-action">
+    <p class="closing">
+      For DII, this session was a reminder that access to tools is only part
+      of the work. Helping people believe they belong in digital spaces is
+      just as important.
+    </p>
+  </div>
+`,
+},
+{
+  slug: "growth-mindset-digital-journey",
+  title: "What It Means to Have a Growth Mindset in a Digital World",
+  excerpt:
+    "DII's first learning session of the season tackled the mindset shifts that separate people who thrive digitally from those who stay on the edges.",
+  date: "14 November 2025",
+  author: "Digital Inclusion Initiative",
+  category: "Webinar",
+  coverImage: "/images/blog/webinar-nov-2025.jpg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      On November 14th, the Digital Inclusion Initiative hosted its first
+      learning session of the season. The topic was growth mindset, and what
+      it means to have one when navigating an increasingly digital world.
+    </p>
+
+    <p class="lede-strong">
+      The session was led by Wumi Akensei, a technology leader with over
+      20 years of experience driving digital transformation across global
+      industries.
+    </p>
+  </div>
+
+  <!-- THE TWO MINDSETS -->
+  <div class="article-body">
+    <h3>Fixed vs Growth</h3>
+    <p>
+      Wumi opened by drawing a clear line between two types of mindsets. A
+      fixed mindset is the belief that your abilities are set and unchangeable.
+      A growth mindset is the belief that with effort, curiosity, and the
+      willingness to try, you can improve. The difference between the two shows
+      up not just in outcomes, but in the language people use, the way they
+      respond to challenges, and how they handle failure.
+    </p>
+
+    <p>
+      She was direct about one thing: failure is not the opposite of progress.
+      It is part of it. The idea of failing fast, learning quickly, and moving
+      forward is something she had seen work in her own career and in the teams
+      she led.
+    </p>
+  </div>
+
+  <!-- THE CONNECTION TO DII -->
+  <div class="article-focus">
+    <h3>Why This Matters for Digital Inclusion</h3>
+    <p>
+      Many people stay on the edges of the digital economy not because they
+      lack intelligence or ability, but because they believe the digital world
+      is not for them. That belief is a fixed mindset. And like all fixed
+      mindsets, it can be changed.
+    </p>
+
+    <p>
+      Wumi connected this directly to DII's work. Skills training changes what
+      people can do. Mindset work changes what people believe is possible for
+      them. Both are necessary.
+    </p>
+
+    <blockquote>
+      When DII teaches skills, careers change. When DII teaches growth
+      mindsets, lives change.
+    </blockquote>
+  </div>
+
+  <!-- CLOSE -->
+  <div class="article-action">
+    <p class="closing">
+      DII's monthly webinar series is part of an ongoing commitment to not
+      just equipping people with tools, but helping them develop the confidence
+      and belief to use those tools fully. This session was a strong start.
+    </p>
+  </div>
+`,
+},
 {
   slug: "beatcode-hackathon-2.0",
   title: "BeatCode Hackathon 2.0 Came to Amuwo Odofin. Here Is What Happened.",
